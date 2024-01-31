@@ -1,0 +1,380 @@
+/* Desktop Typography */
+h1 {
+   /* desktop/H1 - Staatliches - 46px */
+   color: #000;
+   font-family: Staatliches;
+   font-size: 46px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 6.44px;
+}
+
+h2{
+   /* desktop/H2 - Staatliches - 40px */
+    color: #000;
+    font-family: Staatliches;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.6px;
+}
+
+h3{
+    /* desktop/H3 - Staatliches - 34px */
+    color: #000;
+    font-family: Staatliches;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.76px;
+}
+
+h4{
+    /* desktop/H4 - Staatliches - 30px */
+    color: #000;
+    font-family: Staatliches;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h5{
+    /* desktop/H5 - Source Sans 3 Semibold - 28px */
+    color: #000;
+    font-family: "Source Sans 3";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h6{
+    /* desktop/H6 - Source Sans 3 - 24px */
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p{
+    /* desktop/p - Source Sans 3 - 20 px */
+    color: #000;
+    font-family: "Source Sans 3";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Color */
+.color-white{
+    color: #FAFAFA
+}
+
+.color-black{
+    color: #272727
+}
+
+.color-red{
+    color: #C3A0A2
+}
+
+.color-orange{
+    color: #D49E89
+}
+
+.color-yellow{
+    color: #E6D7B8
+}
+
+.color-green{
+    color: #AEC8B3
+}
+
+.color-blue{
+    color: #AEC6CF
+}
+
+.color-purple{
+    color: #B7AECF
+}
+
+/* a tag Remove Underline */
+a{
+    text-decoration: none;
+}
+
+/* Alignment Setup */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin:0;
+}
+
+.margin-bottom-10{
+    margin-bottom: 10px;  
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.work-subsection{
+    display: flex;
+    width: 1320px;
+    justify-content: space-between;
+    align-items: center;   
+
+    margin-bottom: 75px
+} /* this helps align the project card and the mockup image next to it */
+
+.section-title{
+    display: flex;
+    width: 1320px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 47px;
+    margin-top: 70px;
+} /* this helps align the section title to the left of the project cards */
+
+
+.vertically-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* Nav */
+.navigation{
+    display: flex;
+    height: 90px;
+    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+
+    background: var(--muted-white, #FAFAFA);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navigation ul{
+    list-style: none;
+    display: flex;
+    width: 382px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 65px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+
+
+/* Home Page Welcome */
+.homepage-welcome{
+    display: flex;
+    width: 550px;
+    padding: 52px 55px;
+    flex-direction: column;
+    gap: 10px; 
+
+    border-radius: 0px 90px;
+    background: var(--light-muted-green, #AEC8B3);
+
+    margin-top: 70px;
+}
+
+/* Adventuroo */
+.adventuroo-card{
+    display: flex;
+    width: 440px;
+    padding: 52px 55px;
+    flex-direction: column;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 90px 90px 0px 0px;
+    background: var(--muted-purple, #B7AECF);
+}
+
+/* SnapTaskIt */
+.snaptaskit-card{
+    display: flex;
+    width: 440px;
+    padding: 52px 55px;
+    flex-direction: column;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 0px 90px;
+    background: var(--muted-orange, #D49E89);
+}
+
+/* Evanston */
+.evanston-card{
+    display: flex;
+    width: 440px;
+    padding: 52px 55px;
+    flex-direction: column;
+    gap: 10px;
+    flex-shrink: 0;
+    
+    border-radius: 0px 0px 90px 90px;
+    background: var(--muted-blue, #AEC6CF);
+}
+
+/* About Me */
+/* Hello! About me */
+.aboutMe-card{
+    display: flex;
+    width: 400px;
+    padding: 52px 55px;
+    flex-direction: column;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 90px 0px;
+    background: var(--muted-blue, #AEC6CF);
+}
+
+/* About Me Contact */
+.aboutMe-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 53px;
+}
+
+.socialMedia-section{
+    display: flex;
+    width: 378.962px;
+    padding: 9.618px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutMe-subsection{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+/* Skills & Tools on About Page */
+
+.skills-title{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 47px;
+    margin-top: 70px;
+
+}
+
+.skills-subsection{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userResearch-card{
+    display: flex;
+    width: 470px;
+    padding: 52px 40px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    border-radius: 90px 0px 0px 90px;
+    background: var(--muted-red, #C3A0A2);
+}
+
+.design-card{
+    display: flex;
+    width: 412px;
+    padding: 52px 40px;
+    flex-direction: column;
+    flex-shrink: 0; 
+
+    border-radius: 90px 90px 0px 0px;
+    background: var(--muted-orange, #D49E89);
+}
+
+.researchDesign-margin{
+    margin-bottom: 60px;
+}
+
+.interpersonal-card{
+    display: flex;
+    width: 412px;
+    padding: 52px 40px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    border-radius: 0px 0px 90px 90px;
+    background: var(--muted-yellow, #E6D7B8);
+}
+
+.tools-card{
+    display: flex;
+    width: 469px;
+    padding: 52px 40px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    border-radius: 0px 90px 90px 0px;
+    background: var(--light-muted-green, #AEC8B3);
+}
+/* Footer */
+.footer{
+    display: flex;
+    height: 300px;
+    padding: 0px 70px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 58px;
+}
+
+.footer-content{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact{
+    display: flex;
+    padding: 5px 0px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
